@@ -41,7 +41,7 @@ document.onkeyup = function(event) {
 
 // Put our variables into our HTML to show in the DOM.
     $("#guesses-left").text("Guesses Left: " + guessesLeftNum);
-    $("#winsNum").text("winsNum: " + winsNum);
-    $("#lossesNum").text("lossesNum: " + lossesNum);
+    $("#wins").text("Wins: " + winsNum);
+    $("#losses").text("Losses: " + lossesNum);
     $("#guesses-so-far").text("Your Guesses So Far: " + lettersGuessedArr.join(", "));
 }
